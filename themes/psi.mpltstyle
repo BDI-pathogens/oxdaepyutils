@@ -1,0 +1,57 @@
+# To check more avaialble options see:
+# https://matplotlib.org/tutorials/introductory/customizing.html
+
+# A MatPlotLib style sheet created to match the Pandemic Sciences Institute (PSI) branding.
+# Created by Adam Fowler <adam.fowler@spc.ox.ac.uk>
+
+#text.color : (0.2,0.2,0.2)
+
+# AXES
+axes.titlesize : 17
+axes.labelsize : 16
+axes.edgecolor : (0.1,0.1,0.1) #Normalized RGB colours (from 0 to 1 instead of 0 to 255)
+#axes.labelcolor : (0.1,0.1,0.1)
+axes.labelcolor: "#002147"
+axes.linewidth : 1
+axes.spines.top : True
+axes.spines.right : True
+axes.spines.bottom : True
+axes.spines.left : True
+
+# GRID
+axes.grid : True
+grid.alpha : 0.7
+grid.linestyle : --
+grid.linewidth : 0.6
+
+# FONTS
+# Copied from the PSI website main text
+font.family: sans-serif
+font.style: normal
+font.variant: normal
+font.weight: 300
+font.size: 13.0
+font.sans-serif: azo-sans-web, arial, sans-serif
+
+text.color: "#002147"
+
+# LINES
+axes.prop_cycle : cycler('color', [ '00a3c0', 'fbc15e', 'e24a33', '8eba42', '988ed5', 'ffb5b8']) #hex colours - previous yellow was b5a74a, previous off-white was fbc15e
+lines.linewidth : 1.5
+lines.markeredgewidth : 0.0
+
+# SCATTER PLOT
+scatter.marker : .
+
+# TICKS
+xtick.labelsize : 16
+xtick.color : "#002147"
+xtick.direction : in
+ytick.labelsize : 16
+ytick.color : "#002147"
+ytick.direction : in
+
+# FIGURE OUTPUT 
+figure.figsize  : 8, 4
+figure.dpi : 150
+savefig.dpi : 200
